@@ -1,0 +1,39 @@
+
+
+.main{
+    height: 400px;
+    width: 900px;
+    border: 1px solid black;
+    border-color: tomato;
+    background-color: wheat;
+    }
+    
+    .main:hover{
+        cursor: pointer;
+        background-color:steelblue;
+    }
+    
+    .weather{
+    height: 300px;
+    }
+    
+    .outer{
+        height: 200px;
+        width: 350px;
+        border: 5px solid black;
+        border-color: skyblue;
+        background-color:teal;
+        border-radius: 10px;
+        position: absolute;
+        top: 40px;
+        padding: 10px;
+    }
+    .outer:hover{
+        cursor: pointer;
+        background-color: yellowgreen;
+    }
+    .cover{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
